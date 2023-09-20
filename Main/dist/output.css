@@ -1071,10 +1071,6 @@ video {
   --tw-gradient-to: rgba(255,255,255,0.5) var(--tw-gradient-to-position);
 }
 
-.fill-white-50 {
-  fill: rgba(255,255,255,0.5);
-}
-
 .stroke-gray-3 {
   stroke: #333333;
 }
@@ -1234,6 +1230,10 @@ body{
 
 .hover\:to-slate-200:hover {
   --tw-gradient-to: #e2e8f0 var(--tw-gradient-to-position);
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
 }
 
 .hover\:stroke-gray-1:hover {
