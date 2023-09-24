@@ -25,6 +25,8 @@ module.exports = {
         'orange-2': '#e7613a',
         'blue-1': '#00E5FF',
         'blue-2': '#009CFF',
+        'b-p': '#f0f0f1',
+
       },
       screens : {
         'mini-l': '1400px',
@@ -37,6 +39,8 @@ module.exports = {
       dropShadow: {
         'nhd': '0 0px 30px rgba(0, 0, 0, 0.5)',
         'hd': '0 0px 20px rgba(0, 0, 0, 0.8)',
+        'pd': '0 0px 5px rgba(0, 0, 0, 0.3)',
+        
       }
     },
   },
