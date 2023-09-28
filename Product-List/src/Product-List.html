@@ -61,39 +61,51 @@
                 
 
                 <!-- filter and products -->
-                <div class="my-8 flex w-full">
-
-
-                    <!-- filter -->
-                    <div class="w-1/5 h-[90vh] flex">
-                        <div class="bg-white-50 w-full h-[85%] rounded-l-3xl border-y-2 border-l-2 border-white-50"></div>
+                <div class="w-full flex-col flex justify-center items-center my-8">
+                    
+                    <!-- fliter mobile -->
+                    <div class="w-11/12 mb-1 h-[5vh] bg-white rounded-full flex justify-evenly items-center md:hidden">
+                        <div class="w-1/2 h-full rounded-r-full border-l-[1px] border-b-p"></div>
+                        <div class="w-1/2 h-full rounded-l-full border-r-[1px] border-b-p"></div>
                     </div>
 
+                    <div class="flex w-full max-md:flex-col justify-center items-center">
 
-                    <!-- products -->
-                    <div class="w-4/5 h-[90vh] flex items-center flex-col">
-                        <div class="bg-white w-11/12 h-[85%] rounded-3xl flex flex-col mb-2">
-                            <div class="w-full h-1/2 flex">
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 rounded-tr-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 rounded-tl-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                            </div>
-                            <div class="w-full h-1/2 flex">
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 rounded-br-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                                <div class="bg-white z-20 w-1/3 h-full border-gray-5 rounded-bl-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"></div>
-                            </div>
+
+                        <!-- filter desktop and tablet -->
+                        <div class="w-1/5 h-[90vh] flex max-md:hidden">
+                            <div class="bg-white-50 w-full h-[85%] rounded-l-3xl border-y-2 border-l-2 border-white-50"></div>
                         </div>
-                        <div class="mt-2 font-ARDESTINE flex flex-row-reverse text-gray-1 justify-center items-center">
-                            <a href="#" class="h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">1</a>
-                            <a href="#" class="h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">2</a>
-                            <a href="#" class="h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">3</a>
-                            <p class="h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center text-white mx-2">. . .</p>
-                            <a href="#" class="h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">4</a>
+
+
+                        <!-- products -->
+                        <div class="w-4/5 h-[90vh] flex items-center flex-col max-md:w-full max-md:mt-1">
+                            <div class="bg-white w-11/12 md:h-[85%] max-md:h-[100%] rounded-3xl flex flex-col max-md:flex-row mb-2">
+                                <div class="w-full h-1/2 flex max-md:flex-col max-md:h-full max-md:w-1/2">
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 md:rounded-tr-3xl max-md:rounded-tr-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 md:rounded-tr-3xl max-md:rounded-tr-3xl hover:border-0"></div></div>
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 hover:border-0"></div></div>
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 md:rounded-tl-3xl max-md:rounded-br-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 md:rounded-tl-3xl max-md:rounded-br-3xl hover:border-0"></div></div>
+                                </div>
+                                <div class="w-full h-1/2 flex max-md:flex-col max-md:h-full max-md:w-1/2">
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 md:rounded-br-3xl max-md:rounded-tl-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 md:rounded-br-3xl max-md:rounded-tl-3xl hover:border-0"></div></div>
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 hover:border-0"></div></div>
+                                    <div class="flex justify-center items-center bg-white z-20 w-1/3 max-md:w-full h-full border-gray-5 md:rounded-bl-3xl max-md:rounded-bl-3xl hover:border-2 hover:border-b-p hover:drop-shadow-pd hover:z-30"><div class="w-full h-full border-[1px] border-gray-200 md:rounded-bl-3xl max-md:rounded-bl-3xl hover:border-0"></div></div>
+                                </div>
+                            </div>
+                            <div class="mt-2 font-ARDESTINE flex flex-row-reverse text-gray-1 justify-center items-center">
+                                <a href="#" class="max-sm:hidden h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">1</a>
+                                <a href="#" class="max-sm:hidden h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">2</a>
+                                <a href="#" class="max-sm:hidden h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">3</a>
+                                <p class="max-sm:hidden h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center text-white mx-2">. . .</p>
+                                <a href="#" class="max-sm:hidden h-12 w-12 max-lg:h-9 max-lg:w-9 max-md:w-8 max-md:h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white text-2xl">4</a>
+                                <div class="sm:hidden flex justify-center items-center">
+                                    <a href="#" class="w-8 h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white stroke-gray-1 rotate-180"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"/><g id="SVGRepo_iconCarrier"> <path d="M11.5 9.5L14 7M14 17L9 12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/> </g></svg></a>
+                                    <p class="w-11 h-8 flex justify-center items-center bg-white rounded-full mx-2 text-xl">1</p>
+                                    <a href="#" class="w-8 h-8 flex justify-center items-center bg-white rounded-full mx-2 focus:bg-gradient-to-bl from-gray-3 to-gray-5 focus:border-2 focus:border-white-50 focus:text-white stroke-gray-1"><svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"/><g id="SVGRepo_iconCarrier"> <path d="M11.5 9.5L14 7M14 17L9 12" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/> </g></svg></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
                 </div>
 
 
